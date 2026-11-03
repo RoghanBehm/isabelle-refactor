@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="refactor_plugin:main [file:///Users/roghanbehm/repo/UQ/thesis/refactor_plugin/]" external.linked.project.path="$MODULE_DIR$/../../.." external.root.project.path="$MODULE_DIR$/../../.." external.system.id="SBT" external.system.module.type="sbtSourceSet" type="JAVA_MODULE" version="4">
+  <component name="DisplayModuleName">
+    <option name="name" value="refactor_plugin.main" />
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_25">
+    <output url="file://$MODULE_DIR$/../../../target/scala-3.3.4/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../src">
+      <sourceFolder url="file://$MODULE_DIR$/../../../src" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../src-3" />
+    <content url="file://$MODULE_DIR$/../../../target/scala-3.3.4/resource_managed/main" />
+    <content url="file://$MODULE_DIR$/../../../target/scala-3.3.4/src_managed/main" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="sbt: scala-sdk-3.3.4" level="project" />
+    <orderEntry type="module-library">
+      <library name="sbt: unmanaged-jars">
+        <CLASSES>
+          <root url="jar:///Applications/Isabelle2025-2.app/lib/classes/isabelle.jar!/" />
+          <root url="jar:///Applications/Isabelle2025-2.app/contrib/flatlaf-3.6.2/lib/flatlaf-3.6.2-no-natives.jar!/" />
+          <root url="jar:///Applications/Isabelle2025-2.app/contrib/flatlaf-3.6.2/lib/flatlaf-extras-3.6.2.jar!/" />
+          <root url="jar:///Applications/Isabelle2025-2.app/contrib/isabelle_setup-20250613/lib/isabelle_setup.jar!/" />
+          <root url="jar:///Applications/Isabelle2025-2.app/contrib/jedit-20251128/jedit5.7.0-patched/jedit.jar!/" />
+          <root url="jar:///Applications/Isabelle2025-2.app/contrib/jsoup-1.21.2/lib/jsoup-1.21.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="sbt: org.scala-lang:scala3-library_3:3.3.4:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scala-lang:scala-library:2.13.14:jar" level="project" />
+  </component>
+</module>

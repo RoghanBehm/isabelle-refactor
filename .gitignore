@@ -1,0 +1,6 @@
+*~
+classes/
+jarroot/
+target/
+project/target/
+*.jar

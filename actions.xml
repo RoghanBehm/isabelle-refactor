@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE ACTIONS SYSTEM "actions.dtd">
+<ACTIONS>
+  <ACTION NAME="refactor.rename">
+    <CODE>isabelle.jedit.Refactor.rename(view);</CODE>
+  </ACTION>
+  <ACTION NAME="refactor.promote_have">
+    <CODE>isabelle.jedit.Refactor.promote_have(view);</CODE>
+  </ACTION>
+  <ACTION NAME = "refactor.anti_unify">
+    <CODE>isabelle.jedit.Refactor.anti_unify(view);</CODE>
+  </ACTION>
+  <ACTION NAME = "refactor.weaken_locale">
+    <CODE>isabelle.jedit.Refactor.weaken_locale(view);</CODE>
+  </ACTION>
+</ACTIONS>
+

@@ -1,0 +1,7 @@
+plugin.isabelle.jedit.Refactor_Plugin.name=Refactoring
+plugin.isabelle.jedit.Refacotr_Plugin.author=Roghan
+plugin.isabelle.jedit.Refactor_Plugin.version=0.1
+plugin.isabelle.jedit.Refactor_Plugin.description=POC Isabelle/jEdit refactoring actions
+plugin.isabelle.jedit.Refactor_Plugin.activate=startup
+
+

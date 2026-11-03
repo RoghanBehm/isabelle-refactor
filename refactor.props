@@ -1,0 +1,5 @@
+refactor.rename.label=Rename: cross-buffer entity renaming
+refactor.promote_have.label=Promote have: Promote a have block to a global lemma
+refactor.anti_unify.label=Anti-unify: Generalise two lemmas
+refactor.show_markup.label=Show markup: dump markup for an entity
+refactor.weaken_locale.label=Weaken locale: Move lemma to its weakest viable locale.

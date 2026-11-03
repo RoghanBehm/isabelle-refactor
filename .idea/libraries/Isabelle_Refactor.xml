@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Isabelle_Refactor">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Isabelle_Refactor.jar!/" />
+      <root url="jar:///Applications/Isabelle2025-2.app/lib/classes/isabelle.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
