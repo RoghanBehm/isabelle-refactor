@@ -77,8 +77,8 @@ object Rename {
     "fixed" -> Set("constant", "fixed"),
     "fact" -> Set("fact"),
     "type_name" -> Set("type_name"),
-    "locale" -> Set("locale", "class"),
-    "class" -> Set("locale", "class"))
+    "locale" -> Set("locale", "class", "constant"),
+    "class" -> Set("locale", "class", "constant"))
 
   // suffixes of generated names. facts have no generated names
   private val generated_suffixes: Map[String, List[String]] = Map(
