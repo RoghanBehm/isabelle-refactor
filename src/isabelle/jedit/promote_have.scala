@@ -21,7 +21,7 @@ object Promote_Have {
   // What check_liftable reports about a finished have block
   case class LiftInfo(
     fixes: List[(String, String)],        // local fixed vars: (name, type)
-    deps: List[(String, List[String])],   // referenced local facts: (name, statements)
+    deps: List[(String, List[String])],   // local facts depended on: (name, statements)
     unresolved: List[String],             // references that didn't resolve
     hyps: List[(String, List[String])]    // open hyps: (statement, names in context)
   )
@@ -93,7 +93,7 @@ object Promote_Have {
     val place = placement(snapshot, range.start)
     val target_arg = place.target.getOrElse("")
 
-    val early_rejection: Option[Rejected] =
+    val deps_reject: Option[Rejected] =
       check_chaining_supported(snapshot, range)
         .orElse(refs.find(reserved_refs).map(r =>
           Rejected(other = Some(s"the block refers to '$r'"))))
@@ -101,7 +101,7 @@ object Promote_Have {
           Rejected(other = Some(
             s"the block refers to an earlier fact '$n', which its own name shadows"))))
 
-    early_rejection match {
+    deps_reject match {
       case Some(r) => show_rejection(view, r)
       case None =>
         run_query(view, "check_liftable", range.stop - 1, target_arg :: refs, user_caret)(

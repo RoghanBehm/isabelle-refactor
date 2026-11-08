@@ -3,4 +3,8 @@ classes/
 jarroot/
 target/
 project/target/
+project/project/
 *.jar
+.bsp/
+.idea/
+.DS_STORE
